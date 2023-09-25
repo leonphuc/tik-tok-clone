@@ -1,0 +1,95 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.video-wrap{
+    position: relative;
+    width: 100%;
+    // &:after {
+    //         border-bottom: 1px solid red;
+    //         content: '';
+    //         display: block;
+    //         position: absolute;
+    //         width: 100%;
+    //         left: 50%;
+    //         top: 50%;
+    //         transform: translate(-50%, -50%);
+    //     }
+}
+
+
+.video-item{
+    border-radius: 15px;
+    max-height: 600px;
+    max-width: 650px;
+}
+
+.video-item:hover > .video-test {
+    opacity: 1;
+    display: block;
+    animation: fadeIn linear .5s;
+}
+
+.video-test{
+    opacity: 0;
+    display: none;
+}
+
+.video-item-0{
+    height: auto;
+    width: auto;
+    object-fit: cover;
+}
+
+.video-item-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.video-item-con1{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.video-item-con2 {
+    position: absolute;
+    bottom: 45px;
+    right: 20px;
+    height: 90px;
+    width: 20px;
+}
+
+
+
+.video {
+    position: relative;
+
+    button {
+        background-color: transparent;
+        color: var(--white);
+        font-size: 30px;
+    }
+}
+
+.video-btn-play {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.video-btn-volume {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
