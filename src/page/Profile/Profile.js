@@ -123,6 +123,8 @@ function Profile() {
                                               muted
                                               playsInline
                                               reload="none"
+                                              onMouseOver={(event) => event.target.play()}
+                                              onMouseOut={(event) => event.target.pause()}
                                               //   autoPlay="true"
                                               loop
                                           />

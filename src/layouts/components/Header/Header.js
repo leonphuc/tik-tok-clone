@@ -87,10 +87,7 @@ function Header() {
         {
             icon: <FontAwesomeIcon icon="fa-solid fa-user" />,
             title: 'View profile',
-            to: `/profile`,
-            // logTest: function () {
-            //     console.log('userName:', currentUser.email);
-            // },
+            to: `/@profile`,
         },
         {
             icon: <FontAwesomeIcon icon="fa-solid fa-coins" />,
