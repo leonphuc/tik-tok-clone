@@ -1,4 +1,4 @@
-# TIK-TOK-CLOKNE
+# TIK-TOK-CLONE
 # sử dụng API (F8)
 # Các chức năng đã làm
  1. Hiển thị video ( phát/dừng, tắt/ mở âm video)
